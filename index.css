@@ -98,14 +98,14 @@ nav ul li a{
     font-weight: bold;
     outline: none;
     margin: 0px 10px;
-    
+    position:absolute;
+    top: 90%;
 }
 
 .myreviewbutton{
     border: 2px solid #F64C72;
     color: #F64C72;
     background-color: #242FA2;
-    
 }
 
 button:active{
@@ -115,7 +115,7 @@ button:active{
 .mypicture{
     
     position:absolute;
-    bottom:110px;
+    bottom:60px;
     left: 78%;
     transform: translateX(-70%);
 }
