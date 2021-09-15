@@ -86,7 +86,7 @@ nav ul li a{
 .text-container{
     position:absolute;
     left: 13%;
-    top: 42%;
+    top: 35%;
     transform: translate(-13%,-42%);
 }
 
@@ -104,8 +104,11 @@ nav ul li a{
 
 .myreviewbutton{
     
-    color: #F64C72;
-    background-color: #242FA2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    position: inherit;
+    top:100%;
 }
 
 button:active{
@@ -115,15 +118,14 @@ button:active{
 .mypicture{
     
     position:absolute;
-    bottom:100px;
-    left: 78%;
-    transform: translateX(-70%);
-}
+    bottom:200px;
+    left: 60%;
+}  
 
 .abouttxt{
     position:absolute;
     left: 13%;
-    top: 85%;
+    top: 80%;
     transform: translate(-13%,-42%);
 }
 .abouttxt .about{
