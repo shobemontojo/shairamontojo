@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaccination Form</title>
+    <link rel = "stylesheet" href="form.css">
+</head>
+<body>
+    
+    <form>
+        <h1>Vaccination Form</h1>
+        <!----fname-->
+        <div class="firstname">
+            <label for="fname">First Name:<br></label>
+            <input type="text" name="fname" id="fname" >
+        </div>
+        <!----lname-->
+        <div class="lastname">
+            <label for="lname">Last Name:<br></label>
+            <input type="text" name="lname" id="lname" >
+        </div>
+        <!----mname-->
+        <div class="middlename">
+            <label for="mname">Middle Name:<br></label>
+            <input type="text" name="mname" id="mname" >
+        </div>
+        <!----age-->
+        <div class="age">
+            <label for="age">Age:<br></label>
+            <input type="number" name="age" id="age" >
+        </div>
+        
+        <!----male-->
+        <div class="male">
+            <label for="male">Gender:<br></label>
+            Male<input type="radio" name="male" id="male" value="Male">
+            Female<input type="radio" name="female" id="female" value="Female" ><br>
+        </div>
+            
+        </div>
+        <!----address-->
+        <div class="address">
+            <label for="adress">Address:<br></label>
+            <textarea id="address" name="address" rows="1" cols="40"></textarea>
+        </div>
+        <!----facility-->
+        <div class ="healthfaci">
+            <label for="facility">Health Facility:<br></label>
+            <input list="facilities" name="facility" id="facility" >
+            <datalist id="facilities">
+                <option value="San Pedro Hospital"></option>
+                <option value="Magallanes Central Elementary School"></option>
+                <option value="Ma-a Central Elementary School"></option>
+            </datalist>
+        </div>
+        <!----sched-->
+        <div class="schedule">
+            <label for="sched">Vaccination Date:<br></label>
+            <input type="date" name="sched" id="sched" >
+        </div>
+        <!----qrcode-->
+        <div class="qr">
+            <label for="qr">QR Code:<br></label>
+            <input type="text" name="qr" id="qr" >
+        </div>
+        <!----submit-->
+        <div class="submission">
+            <button type="reset" id="clear">Clear</button>
+            <button type="submit" id="submit">Submit</button>
+        </div>
+
+    </form>
+    
+</body>
+</html>
