@@ -1,0 +1,140 @@
+body{
+    background: color #FFFFFF;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+section{
+    width:100%;
+    height: 100vh;
+    background-image: url("img/resto-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+
+}
+
+.about, .best{
+    width:100%;
+    height: 100vh;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color:blanchedalmond;
+    font-size: 25px;
+    text-align: justify;
+
+}
+
+.about .abt{
+    width:100%;
+    height: 100vh;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 15%;
+    left: 17%;
+    color:blanchedalmond;
+    font-size: 40px;
+    font-family: 'Roboto';
+
+}
+
+.abt-img{
+    position:absolute;
+    top:10%;
+    left: 83%;
+    transform: translateX(-70%);
+}
+
+.about p{
+    position: absolute;
+    bottom: 35%;
+    left: 10%;
+    font-family: 'Calibri';
+}
+
+.best .bst{
+    width:100%;
+    height: 100vh;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    bottom: 5%;
+    left: 66%;
+    color:blanchedalmond;
+    font-size: 40px;
+    font-family: 'Roboto';
+
+}
+
+.best p{
+    position: absolute;
+    bottom: 85%;
+    left: 53%;
+    font-family: 'Calibri';
+}
+
+.bst-img{
+    position:absolute;
+    top:85%;
+    left: 35%;
+    transform: translateX(-70%);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #16130e;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0);
+    padding: 0px 5%;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li a{
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.title{
+    font-family: 'Roboto';
+    color: #16130e;
+    font-size: 25px;
+    font-weight: 800;
+    
+}
+
+.logo{
+    position:absolute;
+    top:135%;
+    left: 55%;
+    transform: translateX(-70%);
+}
+
+.address{
+    position: absolute;
+    bottom: -77%;
+    left: 38%;
+    font-family: 'Calibri';
+    color: blanchedalmond;
+    font-size: 18px;
+    font-style: italic;
+}
