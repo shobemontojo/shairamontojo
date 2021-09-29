@@ -1,149 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+
+}
+
 body{
-    background-color: #242FA2 ;
-    margin: 0px;
-    padding: 0px;
-}
-
-ul{
-    list-style: none;
-}
-
-a{
-    text-decoration: none;
-}
-
-section #menu{
-    width:100%;
-    height: 100vh;
-    background-color: #242FA2 ;
-    background-repeat: no-repeat;
+    background-color: #;
     background-size: cover;
-    position: relative;
 
 }
 
 nav{
+    background: #40425a;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    height: 60px;
-    background-color: #242582;
-    box-shadow: 2px 2px 12px rgba(0,0,0,0);
-    padding: 0px 5%;
+    
 }
 
 nav ul{
-    display: flex;
+    float: left;
+    list-style: none;
+    margin-right: 60px;
+    position: relative;
+    
+    
+
+}
+
+nav ul li{
+    float: left;
+    display: inline-block;
+    background: #40425a;
+    margin: 0px;
+    
+    
 }
 
 nav ul li a{
-    margin: 20px;
-    font-family: 'Roboto', sans-serif;
-    color: #FFFFFF;
+    color: white;
+    text-decoration: none;
+    line-height: 70px;
     font-size: 20px;
-    font-weight: 700;
-}
+    padding: 8px 15px;
+    margin: 8px;
+} 
 
-.title{
-    font-family: 'Roboto';
-    color: #FFFFFF;
-    font-size: 25px;
-    font-weight: 800;
-    
-}
-
-.text-container .hello{
-     font-size: 25px;
-     font-weight: bold;
-     color: #FFFFFF;
-     font-family: Calibri;
-}
-
-.text-container .intro-name{
-    font-size: 60px;
-    font-weight: bold;
-    color: #FFFFFF;
-    font-family: Calibri;
-    letter-spacing: 1px;
-}
-
-.text-container .description{
-    font-size: 30px;
-    font-weight: bold;
-    color: #FFFFFF;
-    font-family: Roboto;
-    font-weight: 80;
-    font-style: italic;
-    line-height: 30px;
-}
-
-.text-container p{
-    line-height: 0px;
-    margin: 45px 0px 25px;
-
-}
-
-.text-container{
-    position:absolute;
-    left: 13%;
-    top: 35%;
-    transform: translate(-13%,-42%);
-}
-
-.text-container button{
-    font-family: 'Roboto';
-    width: 140px;
-    height: 52px;
-    border-radius: 10px;
-    font-weight: bold;
-    outline: none;
-    margin: 0px 10px;
-    position:absolute;
-    top: 90%;
-}
-
-.myreviewbutton{
-    
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-style: italic;
-    font-size: 30px;
-    position: inherit;
-    top:100%;
-}
-
-button:active{
-    transform: scale(1,1);
-}
-
-.mypicture{
-    
-    position:absolute;
-    bottom:130px;
-    left: 60%;
-}  
-
-.abouttxt{
-    position:absolute;
-    left: 13%;
-    top: 80%;
-    transform: translate(-13%,-42%);
-}
-.abouttxt .about{
-    font-family: 'Roboto';
-    color: #FFFFFF;
-    font-size: 30px;
+nav ul ul{
     position: absolute;
-    top:-70%;
+    top:90px;
+    opacity: 0;
+    visibility: visible;
+    
 }
 
-.abouttxt .abt-me{
-    font-size: 20px;
-    font-weight: bold;
-    color: #FFFFFF;
-    font-family: Roboto;
-    font-weight: 80;
-    font-style: none;
-    line-height: 30px;
-    position: relative;
-    top: 90%;
+nav ul li ul{
+    position:relative;
+    margin: 0px;
+    width: 170px;
+    float: none;
+    display: list-item;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+    display: none;
+    
+
 }
+
+nav .logo{
+    float: left;
+    color: white;
+    font-size: 50px;
+    line-height: 70px;
+    padding-left: 60px;
+    
+}
+
+nav ul li a:hover{
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px white;
+}
+
+nav ul li a:hover ul{
+    display: block;
+    position: absolute;
+    background: #40425a;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.quote p{
+    font-family: 'Grechen Fuemen', cursive ;
+    font-size: 60px;
+    position: relative;
+    top: 150px;
+    left: 100px;
+}
+
+.img{
+    position:relative;
+    top: -90px;
+    left: 850px;
+}
+
+.quote .seemore a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    font-size: 16px;
+    margin: 6px 4px;
+   font-family: 'Ubuntu', san;
+    font-weight:bold;
+}
+
+.seemore{
+    border: 0;
+    border-radius: 30px;
+    background-color: #2E9CCA ;
+    padding: 10px 24px;
+    text-align: center;
+    line-height: 1;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    top: 250px;
+    left: 100px;
+
+}
+
